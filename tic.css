@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    background-color: #928C6F;
+}
+.game{
+    /* border: 1px solid black; */
+    height: 356px;
+    width: 33%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    margin-top: 50px;
+}
+.box{
+    height: 20vmin;
+    width: 20vmin;
+    margin: 2px;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 10px 10px 1rem  black;
+    font-size: 8vmin;
+    color: brown;
+    background-color: aliceblue;
+}
+.tic{
+    text-align: center;
+    color: #395C6B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+}
+.btn1{
+    border: none;
+    position: relative;
+    left: 523px;
+    margin: 50px;
+    margin-bottom: 0;
+    width: 70px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #212124;
+    color: #fff;
+    box-shadow: 4px 4px 1rem black;
+    font-weight: 900;
+}
+.btn2{
+    margin: 50px;
+    margin-bottom: 0;
+    width: 70px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #212124;
+    color: #fff;
+    box-shadow: 4px 4px 1rem black;
+    font-weight: 900;
+    position: absolute;
+    left: 110px;
+}
+.msg{
+    color: #395C6B;
+    font-size: 8vmin;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    margin-bottom: 35px;
+}
+.msg-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40vmin;
+     margin-top: 140px;
+    background-color: #E4F0D0;
+    width: 70vmin;
+    position: relative;
+    left: 403px;
+    border-radius: 60px;
+    margin-bottom: 260px;
+}
+.hide{
+    display: none;
+}
